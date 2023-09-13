@@ -15,8 +15,8 @@ Markdown Converterは、Markdown形式のテキストを綺麗なHTML形式に�
   - PHP：Markdown形式のファイルを変換
 - Hosting
   - AWS EC2
-  - NGINX　：リバースプロキシとして利用し、クライアントからのPHPに関するリクエストをFastCGIサーバに転送
-  - PHP-FPM：FastCGIを実行するためのツールでPHPコードを実行する
+  - NGINX　：リバースプロキシとして利用し、クライアントからのPHPに関するリクエストをFastCGIプロトコルでPHP-FPMに転送
+  - PHP-FPM：PHPコードを実行するアプリケーションサーバ
 
 <img width="729" alt="スクリーンショット 2023-09-12 12 05 15" src="https://github.com/KoshinHagimoto/Markdown-converter/assets/127278864/0c6677d7-ecf8-4a7b-a2f8-e73612ad45ed">
 
