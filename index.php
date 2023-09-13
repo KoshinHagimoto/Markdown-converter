@@ -15,18 +15,29 @@ require_once 'vendor/autoload.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markdown to HTML</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"> <!-- Font Awesome for icons -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.20.0/min/vs/loader.min.js"></script>
 </head>
 <body>
+<header>
+    <h1>Markdown to HTML Converter</h1>
+</header>
 
-<div id="editor-container" style="width:800px;height:600px;border:1px solid grey"></div>
-
-<select name="output_type" id="outputType">
-    <option value="display">Display</option>
-    <option value="download">Download</option>
-</select>
-
-<button id="convertBtn">Convert</button>
+<div id="container">
+    <div id="editor-container">
+        <h2>Markdown Editor</h2>
+    </div>
+    <div id="displayArea">
+        <div id="displayAreaHeader">
+            <button id="previewBtn"><i class="fas fa-eye"></i>Preview</button>
+            <button id="htmlBtn"><i class="fas fa-code"></i>HTML</button>
+            <button id="downloadBtn"><i class="fas fa-download"></i>Download</button>
+        </div>
+        <div id="contentArea">
+            <h2>Output</h2>
+        </div>
+    </div>
+</div>
 
 <script src="assets/js/main.js"></script>
 

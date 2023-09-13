@@ -1,7 +1,7 @@
 <?php
 namespace Convert;
 
-require 'vendor/autoload.php';
+require '../vendor/autoload.php';
 
 $parsedown = new \Parsedown();
 $htmlContent = $parsedown->text($_POST['markdownContent']);
