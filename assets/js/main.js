@@ -54,6 +54,10 @@ function handleConversion(outputType) {
         } else {
             const contentArea = document.getElementById('contentArea');
             contentArea.innerHTML = data;
+            // ここでhighlight.jsを使ってシンタックスハイライトを適用
+            contentArea.querySelectorAll('pre code').forEach((block) => {
+                hljs.highlightBlock(block);
+            });
         }
     })
     .catch(error => {
