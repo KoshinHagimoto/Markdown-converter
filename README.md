@@ -1,6 +1,8 @@
 # Markdown-converter
-Markdown Converterは、Markdown形式のテキストを綺麗なHTML形式に変換できるWebアプリケーション. 更に、変換されたHTMLを簡単にダウンロード可能<br>
+Markdown Converterは、Markdown形式のテキストを綺麗なHTML形式に変換できるWebアプリケーション. 更に、変換されたHTMLを簡単にダウンロード可能.<br>
 <img width="863" alt="スクリーンショット 2023-09-13 11 48 46" src="https://github.com/KoshinHagimoto/Markdown-converter/assets/127278864/4add585b-80c4-45ba-8071-eefb8114e3e0">
+## URL
+https://markdown.hagitech.net/
 ## 機能
 - Markdowm変換: Markdown形式で入力されたテキストをHTMLに即時変換
 - HTMLプレビュー：変換後のHTMLをプレビュー表示
